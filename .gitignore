@@ -1,0 +1,25 @@
+# Dependencies
+node_modules
+*/node_modules
+
+# Build outputs
+dist
+*/dist
+out
+*/out
+
+# Database
+*.sqlite
+*.db
+backend/database.sqlite
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+*.env.local
+
+# Docker logs if any (custom)
+*.log

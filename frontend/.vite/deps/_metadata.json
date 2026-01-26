@@ -1,0 +1,34 @@
+{
+  "hash": "1024d34c",
+  "configHash": "135df27c",
+  "lockfileHash": "7f845598",
+  "browserHash": "0112dca7",
+  "optimized": {
+    "preact": {
+      "src": "../../node_modules/preact/dist/preact.module.js",
+      "file": "preact.js",
+      "fileHash": "c3a27d89",
+      "needsInterop": false
+    },
+    "preact/hooks": {
+      "src": "../../node_modules/preact/hooks/dist/hooks.module.js",
+      "file": "preact_hooks.js",
+      "fileHash": "a70f4c37",
+      "needsInterop": false
+    },
+    "preact-router": {
+      "src": "../../node_modules/preact-router/dist/preact-router.mjs",
+      "file": "preact-router.js",
+      "fileHash": "6cf8a21a",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-V7HYEDKB": {
+      "file": "chunk-V7HYEDKB.js"
+    },
+    "chunk-SQQP26S6": {
+      "file": "chunk-SQQP26S6.js"
+    }
+  }
+}

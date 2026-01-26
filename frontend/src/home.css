@@ -1,0 +1,99 @@
+.home-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4rem;
+    padding: 2rem;
+    min-height: 90vh;
+    /* Even taller */
+    max-width: 1600px;
+    /* Much wider container */
+    margin: 0 auto;
+}
+
+.home-left,
+.home-right {
+    flex: 1;
+}
+
+.home-left {
+    display: flex;
+    justify-content: flex-end;
+    /* Push image towards center/divider */
+    align-items: center;
+}
+
+.hero-image {
+    width: 100%;
+    /* Force image to fill the container */
+    max-width: 900px;
+    /* BIGGER */
+    /* Cap it reasonably so it doesn't get absurd on huge screens */
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    /* Enhanced shadow */
+}
+
+.divider {
+    width: 2px;
+    background-color: #9ca3af;
+    /* Slightly darker grey for visibility */
+    height: 600px;
+    /* Longer divider */
+    /* Fixed height to ensure it renders */
+    align-self: center;
+    flex-shrink: 0;
+    margin: 0 2rem;
+    /* Add horizontal spacing */
+    border-radius: 99px;
+    /* Soft edges */
+}
+
+.home-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* Center horizontally */
+    text-align: center;
+    /* Center text */
+}
+
+.home-right h1 {
+    font-size: 2rem;
+    /* Reduced from 3rem */
+    /* Slightly larger heading */
+    margin-bottom: 1.5rem;
+    color: var(--primary);
+    line-height: 1.2;
+}
+
+.home-right p {
+    font-size: 1.3rem;
+    color: var(--text);
+    margin-bottom: 2.5rem;
+    opacity: 0.8;
+    max-width: 500px;
+    /* Maintain readability */
+}
+
+.actions {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    /* Ensure buttons are centered */
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .home-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .actions {
+        justify-content: center;
+    }
+}
